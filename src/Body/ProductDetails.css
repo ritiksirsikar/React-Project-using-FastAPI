@@ -1,0 +1,33 @@
+/* ProductDetails.css */
+.productDetails-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center vertically */
+  height: 600px;
+}
+
+.productDetails-card {
+  text-align: center; /* Center text horizontally */
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Ensure card content is stacked vertically */
+  align-items: center; /* Center content horizontally within the card */
+  width: 60%; /* Adjust the card width as desired */
+  max-width: 400px; /* Limit the maximum card width */
+}
+
+.productDetails-card .card-img-top {
+  width: 100%; /* Allow the image to take the full width of the card */
+  max-height: 370px; /* Limit the image height */
+  object-fit: contain; /* Maintain aspect ratio while fitting */
+}
+
+.productDetails-card .card-text {
+  width: 100%; /* Allow the text to take the full width of the card */
+  margin: 0 auto 10px; /* Center the text horizontally within the card and add 10px margin at the bottom */
+}
+
+.productDetails-card .btn {
+  margin-top: 10px; /* Add 10px margin at the top of the button */
+}
